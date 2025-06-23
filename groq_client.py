@@ -5,7 +5,7 @@ import re
 from typing import Optional, Dict, List
 
 # === CONFIG ===
-GROQ_API_KEY = "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"  # Replace with your actual key
+GROQ_API_KEY = " "  # Replace with your actual key
 MODEL = "llama3-8b-8192"  # or "mixtral-8x7b-32768"
 
 # === GROQ API CALL ===
