@@ -2,7 +2,7 @@ import yagmail
 
 # === CONFIG ===
 SENDER_EMAIL = "darsh.21.cs@iite.indusuni.ac.in"   # Replace with your email
-APP_PASSWORD = "btgd mwnf yhvh clmc"            # Use Gmail App Password
+APP_PASSWORD = ""            # Use Gmail App Password
 
 def send_quotation_email(receiver_email, subject, email_body, pdf_path):
     """
@@ -48,7 +48,7 @@ def send_followup_email(receiver_email, subject, body):
 
 # # === CONFIG ===
 # SENDER_EMAIL = "darsh.21.cs@iite.indusuni.ac.in"  # Your email
-# APP_PASSWORD = "btgd mwnf yhvh clmc"              # Gmail app password
+# APP_PASSWORD = ""              # Gmail app password
 
 # def send_quotation_email(receiver_email, subject, email_body, pdf_path):
 #     """
